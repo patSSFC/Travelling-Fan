@@ -1,0 +1,191 @@
+/*******************************/
+/***********PAGE SETUP**********/
+/*******************************/
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Tahoma', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/***********REUSABLES**********/
+
+.row {
+    max-width: 960px;
+    margin: 40px auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 350%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 230%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+h2:after {
+    content: "";
+    height: 2px;
+    width: 30%;
+    border-bottom: 2px solid #D91E18;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+h3 {
+    font-size: 170%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.copy {
+    margin: 10px auto;
+    line-height: 150%;
+    word-spacing: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*******************************/
+/************HEADER*************/
+/*******************************/
+
+header {
+    background-image: url("../images/header-image.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+
+
+/**************NAV**************/
+
+
+
+/************WELCOME-TEXT*********/
+
+#welcome-text {
+    position: absolute;
+    width: 1140px;
+    top: 30%;
+    left: 10%;
+    color: #eee;
+}
+
+/*******************************/
+/***********WHO SECITON*********/
+/*******************************/
+
+#user-info, #author-info {
+    width: 40%;
+}
+
+#user-info {
+    float: left;
+    margin-left: 50px;
+}
+
+#author-info {
+    float: right;
+    margin-right: 50px;
+}
+
+#author-info .copy, #user-info .copy {
+    width: 70%;
+}
+
+#author-pic {
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/*******************************/
+/***********WHY SECITON*********/
+/*******************************/
+
+#why-container {
+    background-color: #eee;
+}
+
+/***********WHY COLS*************/
+
+.why-col {
+    width: 24%;
+    float: left;
+    margin: 0 .5%;
+}
+
+.why-col .copy {
+    word-spacing: 2px;
+}
+
+.why-col span {
+    color: #D91E18;
+    font-size: 320%;
+    text-align: center;
+    position: relative;
+    left: 90px;
+}
+
+/***********ENTER BUTTON**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
