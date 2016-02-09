@@ -37,7 +37,7 @@ h2 {
 h2:after {
     content: "";
     height: 2px;
-    width: 30%;
+    width: 15%;
     border-bottom: 2px solid #D91E18;
     display: block;
     margin: 30px auto 0 auto;
@@ -128,7 +128,7 @@ header {
 /*******************************/
 
 #why-container {
-    background-color: #eee;
+    background: #e6e6e6;
 }
 
 /***********WHY COLS*************/
@@ -151,7 +151,82 @@ header {
     left: 90px;
 }
 
-/***********ENTER BUTTON**********/
+/*******************************/
+/**********REVIEW SECITON*******/
+/*******************************/
+
+#review-container {
+    background-color: #ABB7B7;
+}
+
+.my-slider ul {
+    text-align: center;
+}
+
+.my-slider blockquote {
+    width: 70%;
+    font-size: 200%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    word-spacing: 3px;
+}
+
+.my-slider blockquote:before {
+    font-size: 200%;
+    content: "\201C";
+}
+
+.my-slider blockquote:after {
+    font-size: 200%;
+    content: "\201D";
+}
+
+.my-slider div img {
+    width: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px;
+}
+
+.my-slider div cite {
+    font-weight: 400;
+    font-size: 120%;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
